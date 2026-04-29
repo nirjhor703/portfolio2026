@@ -14,17 +14,22 @@
 }
 
 html[data-theme="light"] {
-  --bg: #f5f7fb;
-  --bg-2: #e9eef7;
-  --surface: rgba(255,255,255,0.7);
-  --surface-2: rgba(255,255,255,0.45);
-  --border: rgba(10, 18, 35, 0.08);
-  --text: #0c1322;
-  --muted: rgba(12,19,34,0.7);
-  --accent: #2563eb;
-  --accent-2: #7c3aed;
-  --accent-3: #0f766e;
-  --shadow: 0 24px 70px rgba(17, 24, 39, 0.12);
+  --bg: #a1a5ac;
+  --bg-2: #aeb7c5;
+
+  --surface: rgba(255, 255, 255, 0.78);
+  --surface-2: rgba(232, 235, 239, 0.72);
+
+  --border: rgba(55, 65, 81, 0.14);
+
+  --text: #20242a;
+  --muted: rgba(75, 85, 99, 0.74);
+
+  --accent: #44474c;
+  --accent-2: #6f7782;
+  --accent-3: #98b2d4;
+
+  --shadow: 0 24px 70px rgba(55, 65, 81, 0.15);
   --glass-blur: blur(18px);
 }
 
@@ -751,18 +756,27 @@ textarea {
 }
 
 .project-1 {
-  background: linear-gradient(135deg, #2563eb, #22c55e);
+  background: linear-gradient(135deg, #1e3a8a, #166534);
 }
 
 .project-2 {
-  background: linear-gradient(135deg, #7c3aed, #ec4899);
+  background: linear-gradient(135deg, #4c1d95, #9d174d);
 }
 
 .project-3 {
-  background: linear-gradient(135deg, #5b8ae2, #194bb7);
+  background: linear-gradient(135deg, #1e40af, #0f172a);
 }
+
 .project-4 {
-  background: linear-gradient(135deg, #82b450, #b47f31);
+  background: linear-gradient(135deg, #3f6212, #78350f);
+}
+
+.project-5 {
+  background: linear-gradient(135deg, #111827, #475569);
+}
+
+.project-6 {
+  background: linear-gradient(135deg, #991b1b, #0f172a);
 }
 
 .project-body {
